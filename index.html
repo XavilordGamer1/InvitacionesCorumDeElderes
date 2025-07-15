@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Invitación: Actividad Deportiva</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&family=Lato:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Lato', sans-serif;
+        }
+        h1, h2, h3 {
+            font-family: 'Merriweather', serif;
+        }
+        .bg-image-container {
+            /* Imagen actualizada con el símbolo de la Iglesia */
+            background-image: url('https://noticias-mx.laiglesiadejesucristo.org/media/960x540/nombre-iglesia-jeucristo-santos-ultimos-dias.png');
+            background-size: cover;
+            background-position: center;
+        }
+        /* Capa semitransparente para mejorar la legibilidad del texto */
+        .overlay {
+            background-color: rgba(0, 0, 0, 0.35);
+        }
+    </style>
+</head>
+<body class="bg-gray-100 flex items-center justify-center min-h-screen">
+
+    <div class="w-full max-w-md mx-auto bg-white rounded-2xl shadow-2xl overflow-hidden my-8">
+        
+        <!-- Sección de Imagen con Capa superpuesta -->
+        <div class="bg-image-container h-64 w-full relative">
+            <div class="overlay absolute inset-0 flex flex-col items-center justify-center text-white p-4 text-center">
+                <h1 class="text-3xl font-bold leading-tight">Un Día de Deporte y Hermandad</h1>
+                <p class="mt-2 text-lg">Fortaleciendo el cuerpo y el espíritu</p>
+            </div>
+        </div>
+
+        <!-- Sección de Contenido -->
+        <div class="p-6 md:p-8">
+            
+            <div class="text-center">
+                <p class="text-gray-700 text-lg mb-4">
+                    El <strong class="font-semibold">Corum de Élderes</strong> tiene el agrado de invitarte a una mañana especial de compañerismo en la
+                </p>
+                <h2 class="text-2xl font-bold text-cyan-800">Playa del Murciélago</h2>
+            </div>
+
+            <!-- Sección de Actividades -->
+            <div class="mt-6">
+                <h3 class="text-xl font-bold text-center text-gray-800 mb-4">Actividades para todos</h3>
+                <div class="space-y-3 text-gray-700">
+                    <div class="flex items-start">
+                        <svg class="w-6 h-6 text-cyan-600 mr-3 mt-1 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 5l7 7-7 7M5 5l7 7-7 7"></path></svg>
+                        <div>
+                            <span class="font-semibold">Caminata y Trote:</span> Disfruta de la brisa marina y el paisaje.
+                        </div>
+                    </div>
+                    <div class="flex items-start">
+                        <svg class="w-6 h-6 text-cyan-600 mr-3 mt-1 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+                        <div>
+                           <span class="font-semibold">Fútbol Playero:</span> ¡Alista tu equipo para un partido amistoso!
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Sección de Detalles -->
+            <div class="mt-8 bg-cyan-50 rounded-lg p-4">
+                 <div class="space-y-3">
+                    <p><span class="font-bold">🗓️ Día:</span> Sábado, 26 de Julio</p>
+                    <p><span class="font-bold">⏰ Hora:</span> 8:00 AM</p>
+                    <!-- Punto de encuentro actualizado -->
+                    <p><span class="font-bold">📍 Punto de Encuentro:</span> En la entrada a la playa del Murciélago</p>
+                 </div>
+            </div>
+
+            <!-- Pie de página -->
+            <div class="mt-8 text-center">
+                <p class="text-gray-600 italic">"Porque donde están dos o tres congregados en mi nombre, allí estoy yo en medio de ellos." - Mateo 18:20</p>
+                <p class="mt-4 text-lg font-semibold text-gray-800">¡No faltes!</p>
+            </div>
+
+        </div>
+    </div>
+
+</body>
+</html>
